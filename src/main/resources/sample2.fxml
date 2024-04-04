@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ccc;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="Sample2.Controller">
+
+   <children>
+      <TextField fx:id="inputA" layoutX="241.0" layoutY="44.0" promptText="Input a" />
+      <TextField fx:id="inputB" layoutX="241.0" layoutY="97.0" promptText="input b" />
+      <TextField fx:id="outputC" disable="true" layoutX="241.0" layoutY="148.0" promptText="output C" />
+      <Label layoutX="152.0" layoutY="48.0" text="Input A" />
+      <Label layoutX="152.0" layoutY="101.0" text="Input B" />
+      <Label layoutX="152.0" layoutY="152.0" text="Output result" />
+      <Button fx:id="result" layoutX="255.0" layoutY="243.0" mnemonicParsing="false" onAction="#clickResult" text="Result" />
+   </children>
+</AnchorPane>
