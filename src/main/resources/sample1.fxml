@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
+<AnchorPane prefHeight="400.0" prefWidth="600.0"
+            xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="Sample1.Sample1"
-            prefHeight="400.0" prefWidth="600.0">
+            fx:controller="Sample1.Sample1">
     <children>
-        <Button fx:id="fxButton" text="clickMe" onAction="#click"/>
+        <Button fx:id="fxButton" onAction="#click" text="clickMe" />
+      <TextField fx:id="inputA" layoutX="286.0" layoutY="57.0" />
+      <TextField fx:id="inputB" layoutX="288.0" layoutY="115.0" />
+      <TextField fx:id="outputC" layoutX="290.0" layoutY="175.0" />
+      <Button fx:id="result" layoutX="314.0" layoutY="246.0" mnemonicParsing="false" text="Result" onAction="#clickResult" />
     </children>
 </AnchorPane>
